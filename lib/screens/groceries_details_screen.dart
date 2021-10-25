@@ -54,6 +54,16 @@ class GroceriesDetailsScreen extends StatelessWidget {
               ),
             ),
           ),
+          ElevatedButton(
+            onPressed: () => print('Hello World!'),
+            style: ElevatedButton.styleFrom(
+              primary: Colors.red,
+            ),
+            child: const Text(
+              'Buy Product',
+              style: TextStyle(fontFamily: 'Raleway',fontWeight: FontWeight.bold)            
+              )
+          ),
         ],
       ),
     );
